@@ -1,12 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header"
 
-function App() {
-  return (
-    <div className="App">
-<h1>hello</h1>
-    </div>
-  );
+const App = () => {                            
+  return (               
+    <div className='Header'> 
+    <Header/>           
+            
+     </div>
+  )
 }
 
-export default App;
+
+
+export default App            //Exporting the App component as the default export of this module.
+
