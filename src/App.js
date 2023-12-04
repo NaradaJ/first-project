@@ -1,15 +1,7 @@
-import Header from "./components/Header"
+import Gallery from './Gallery.js';
 
-const App = () => {                            
-  return (               
-    <div className='Header'> 
-    <Header/>           
-    
-     </div>
-  )
+export default function App() {
+  return (
+    <Gallery />
+  );
 }
-
-
-
-export default App            //Exporting the App component as the default export of this module.
-
